@@ -60,6 +60,19 @@
         var num = document.getElementById('half-input').value
         document.getElementById("solution").innerHTML=half(num)
     })
+
+    //INPUT 3
+    function porcent(num1,num2){
+        var porcent = (num1/num2)/2
+        return porcent
+    }
+
+    var porcentButton = document.getElementById("percent-button")
+    porcentButton.addEventListener('click',function(){
+        var num1=document.getElementById('percent1-input').value
+        var num2=document.getElementById('percent2-input').value
+        document.getElementById("solution").innerHTML=porcent(num1,num2)
+    })
   </script>
   
   

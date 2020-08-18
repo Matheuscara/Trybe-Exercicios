@@ -17,7 +17,7 @@
       <div class="field">
         <label class="label" for="nome">Nome:</label>
         <div class="control">
-          <input class="input is-primary" type="text" name="username" id="nome" placeholder="Digite seu  nome" required>
+          <input class="input is-primary" type="text" name="username" id="nome" placeholder="Digite seu  nome"  maxlength="40" required="required">
         </div>
       </div> 
 
@@ -26,22 +26,22 @@
       <div class="field">  
         <label class="label" for="email">Email:</label>
           <div class="control">
-            <input class="input is-primary" type="email" name="e-mail" id="email" placeholder="Digite seu E-mail" required>
+            <input class="input is-primary" type="email" name="e-mail" id="email" placeholder="Digite seu E-mail" maxlength="40" required="required">
           </div>
       </div>
   
-      LABEL CPF
-      <div class="field">
-        <label class="label" for="cpf">CPF: (. , -)</label>
+      <!-- LABEL CPF -->
+      <div>
+        <label class="label" for="cpf">CPF:</label>
         <div class="control">
-          <input class="input is-primary" name="cpf" id="cpf" placeholder="Digite seu cpf"   required="required">  
+          <input class="input is-primary" name="cpf" id="cpf" placeholder="Digite seu cpf"  maxlength="11" required="required">  
         </div>
       </div>
 
           
         
         
-    LABEL ENDEREÇO 
+    <!-- LABEL ENDEREÇO --> 
     <div class="field">
     <label class="label" for="endereco">Endereço:</label>
       <div class="control">
@@ -52,7 +52,7 @@
     
     
   
-    LABEL CIDADE
+    <!-- LABEL CIDADE -->
     <div class="field">
       <label class="label" for="cidade">Cidade:</label>      
       <div class="control">
@@ -62,11 +62,11 @@
 
     
   
-    LABEL ESTADO
+    <!-- LABEL ESTADO -->
     <div class="field">
       <label class="label" for="estado">Selecione Sea estado:</label>
       <div class="control">
-        <select class="select is-medium " name="estado" id="estado" required>
+        <select class="select is-medium " name="estado" id="estado">
           <option value="">Estado</option>
           <option value="AC">Acre</option>
 	        <option value="AL">Alagoas</option>
@@ -101,18 +101,18 @@
     
 
   
-    LABEL TIPO DE RESIDENCIA
+    <!-- LABEL TIPO DE RESIDENCIA -->
     <div class="field">
     <legend class="label">Selecione seu tipo de residencia:</legend>  
       
-    <div required class="control">
+    <div class="control">
       <label for="casa">
         Casa
-        <input class="radio " type="radio" name="casa" id="casa" >
+        <input class="radio " type="radio" name="casa" id="casa" required="required">
       </label>
       <label for="apartamento">
         Apartamento
-        <input class="radio" type="radio" name="casa" id="apartamento">
+        <input class="radio" type="radio" name="casa" id="apartamento" required="required">
       </label>    
       </div>
     </div>
@@ -120,30 +120,30 @@
     
     
 
-    LABEL RESUMO ULTIMO EMPREGO
+    <!-- LABEL RESUMO ULTIMO EMPREGO -->
     <div class="field">
       <label class="label" for="corriculo">
           <p class="content">Conte um pouco mais sobre sua carreira:</p>
-          <textarea class="textarea  is-primary" name="corriculo" id="corriculo" required></textarea>
+          <textarea class="textarea  is-primary" name="corriculo" id="corriculo" ></textarea>
       </label>
     </div>
     
     
 
-    LABEL CARGO
+    <!-- LABEL CARGO -->
     <div class="field">
       <div class="content">
         <label class="label" for="cargo">Cargo:
-          <input class="input  is-primary" type="text" nome="cargo" id="cargo" placeholder="Empresario" maxlength="40" required>
+          <input class="input  is-primary" type="text" nome="cargo" id="cargo" placeholder="Empresario" maxlength="40" required="required">
         </label>
       </div>
     </div>
     
 
-    LABEL DATA DE INICIO
+    <!-- LABEL DATA DE INICIO -->
     <div class="field">
       <label class="label" for="data">Data de início: 
-        <input class="input  is-primary" type="date" name="data" id="data" required></label>
+        <input class="input  is-primary" type="date" name="data" id="data" required="required"></label>
     </div>
 
 
@@ -158,7 +158,7 @@
         
       </div>
     </div>
-  </form>
+    </form>
     
   </body>
     <script src="script.js"></script>

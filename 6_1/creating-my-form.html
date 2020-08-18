@@ -1,0 +1,64 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Creating My Form</title>
+  </head>
+  <body>
+    <h1>Meu Formulário</h1>
+    <p>Este é um formulário de exemplo</p>
+
+    <form action="" method="POST" enctype="multipart/form-data">
+  
+      <div>
+        <label for="">Nome</label>
+        <input name="nome" type="text" required="required" placeholder="Digite seu nome">
+      </div>
+    
+      <div>
+        <label for="">E-mail</label>
+        <input name="email" type="text" required="required" placeholder="Digite seu e-mail">
+      </div>
+
+      <div>
+        <label for="">Selecione a sua cidade</label>
+        <select required="required" name="cidade">
+          <option selected="selected">selecione</option>
+          <option value="1">Belo Horizonte</option>
+          <option value="2">São Paulo</option>
+          <option value="3">Rio Verde</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Sua Foto</label>
+        <input required="required" type="file" name="foto">
+      </div>
+
+      <div>
+        <p>Selecione seu Sexo:</p>
+        <label for="sexo1"><input name="sexo" id="sexo1" value="m" type="radio">Mascolino</label>
+        <label for="sexo2"><input name="sexo" id="sexo2" value="f" type="radio">Feminino</label>
+      </div>
+
+      <div>
+        <label for="">Biografia</label><br>
+        <textarea name="biografia" placeholder="Digite sua biografia" required="required" cols="30" rows="5"></textarea>
+      </div>
+
+      <div>
+        <label for="">Senha</label>
+        <input required="required" placeholder="Digite sua senha" name="senha" type="password">
+      </div>
+
+      <div>
+        <label for="noticias">   
+          <input type="checkbox" name="newsletter" id="noticias" >
+          Deseja receber E-mail promocionais de noticias?</label>
+      </div>
+
+      <div>
+        <button name="enviar" value="1" type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>

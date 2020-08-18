@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset = "utf-8" />
+  <title> Caminhada por gatos </title>
+ </head>
+ <body>
+  
+  <img style = "position: absolute;" src = "http://www.anniemation.com/clip_art/images/cat-walk.gif">
+
+  <script>
+      const img = document.getElementsByTagName("img")[0]
+      img.style.left="0px"
+
+      function andarGato(){
+          img.style.left=((parseInt(img.style.left)+10)+'px')
+          img.style.top=((parseInt(img.style.top)+10)+'px')
+      }
+      window.setInterval(andarGato,100)
+  </script>
+ </body>
+</html>
+<!-- Adicione uma tag de script na parte inferior da página, onde você colocará todo o seu código.
+Crie uma variável para armazenar uma referência ao img.
+Mude o estilo de imgpara ter uma "esquerda" de "0px", para que comece na mão esquerda das telas.
+Crie uma função chamada catWalk()que move o gato 10 pixels para a direita de onde foi iniciado, alterando a propriedade de estilo "esquerda".
+Chame essa função a cada 50 milissegundos. Seu gato agora deve estar se movendo pela tela da esquerda para a direita. Viva!
+
+Ver Solução -->
