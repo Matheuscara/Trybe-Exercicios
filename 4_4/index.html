@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estudo Objeto e Functions</title>
+</head>
+<body>
+    <script>
+    var carro = {
+        indice: 'ADD-4534',
+        modelo: 'SEDA',
+        marca: 'Hyundai',
+        pato: {
+            sexo: 'PATU',
+            extra: {
+                pata:'GRANDE'
+            }
+        }
+    }
+    console.log(carro.pato.extra.pata)
+
+    const pessoa = {
+    nome: 'Jhonatan',
+    indade:25
+    }
+
+    for (let chave in pessoa){
+    console.log(chave,pessoa['nome']);  
+    }
+
+    const cores = ['vermelho', 'Azul','Vermelho']
+
+    for (let indice in cores ) {
+    console.log(indice,cores[indice])
+    }
+    
+    </script>
+</body>
+</html>

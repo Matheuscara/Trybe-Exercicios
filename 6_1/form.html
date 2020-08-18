@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Creating My Form</title>
+    <link rel="stylesheet" href="css/bulma-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="section">
+     <h1 class="title">Meu Formulário</h1>
+     <p class="subtitle"><em>Por favor, insira seus documentos corretos</em></p>     
+    </header>
+
+    <form action="" method="get">
+
+      <!-- LABEL NOME -->
+      <div class="field">
+        <label class="label" for="nome">Nome:</label>
+        <div class="control">
+          <input class="input is-primary" type="text" name="username" id="nome" placeholder="Digite seu  nome" required>
+        </div>
+      </div> 
+
+  
+        <!-- LABEL E-MAIL -->
+      <div class="field">  
+        <label class="label" for="email">Email:</label>
+          <div class="control">
+            <input class="input is-primary" type="email" name="e-mail" id="email" placeholder="Digite seu E-mail" required>
+          </div>
+      </div>
+  
+      LABEL CPF
+      <div class="field">
+        <label class="label" for="cpf">CPF: (. , -)</label>
+        <div class="control">
+          <input class="input is-primary" name="cpf" id="cpf" placeholder="Digite seu cpf"   required="required">  
+        </div>
+      </div>
+
+          
+        
+        
+    LABEL ENDEREÇO 
+    <div class="field">
+    <label class="label" for="endereco">Endereço:</label>
+      <div class="control">
+      <input class="input is-primary" type="text" name="endereco" id="endereco"  placeholder="Exemplo: Rua 8° numero 34" maxlength="200" required="required">        
+      </div>
+    </div>
+
+    
+    
+  
+    LABEL CIDADE
+    <div class="field">
+      <label class="label" for="cidade">Cidade:</label>      
+      <div class="control">
+        <input class="input is-primary" type="text" name="cidade" id="cidade" placeholder="São Paulo" maxlength="28" required="required">
+      </div>
+    </div>
+
+    
+  
+    LABEL ESTADO
+    <div class="field">
+      <label class="label" for="estado">Selecione Sea estado:</label>
+      <div class="control">
+        <select class="select is-medium " name="estado" id="estado" required>
+          <option value="">Estado</option>
+          <option value="AC">Acre</option>
+	        <option value="AL">Alagoas</option>
+	        <option value="AP">Amapá</option>
+	        <option value="AM">Amazonas</option>
+	        <option value="BA">Bahia</option>
+	        <option value="CE">Ceará</option>
+	        <option value="DF">Distrito Federal</option>
+	        <option value="ES">Espírito Santo</option>
+	        <option value="GO">Goiás</option>
+	        <option value="MA">Maranhão</option>
+	        <option value="MT">Mato Grosso</option>
+	        <option value="MS">Mato Grosso do Sul</option>
+	        <option value="MG">Minas Gerais</option>
+	        <option value="PA">Pará</option>
+	        <option value="PB">Paraíba</option>
+	        <option value="PR">Paraná</option>
+	        <option value="PE">Pernambuco</option>
+	        <option value="PI">Piauí</option>
+	        <option value="RJ">Rio de Janeiro</option>
+	        <option value="RN">Rio Grande do Norte</option>
+	        <option value="RS">Rio Grande do Sul</option>
+	        <option value="RO">Rondônia</option>
+	        <option value="RR">Roraima</option>
+	        <option value="SC">Santa Catarina</option>
+	        <option value="SP">São Paulo</option>
+	        <option value="SE">Sergipe</option>
+	        <option value="TO">Tocantins</option>
+        </select>
+      </div>
+    </div>
+    
+
+  
+    LABEL TIPO DE RESIDENCIA
+    <div class="field">
+    <legend class="label">Selecione seu tipo de residencia:</legend>  
+      
+    <div required class="control">
+      <label for="casa">
+        Casa
+        <input class="radio " type="radio" name="casa" id="casa" >
+      </label>
+      <label for="apartamento">
+        Apartamento
+        <input class="radio" type="radio" name="casa" id="apartamento">
+      </label>    
+      </div>
+    </div>
+    
+    
+    
+
+    LABEL RESUMO ULTIMO EMPREGO
+    <div class="field">
+      <label class="label" for="corriculo">
+          <p class="content">Conte um pouco mais sobre sua carreira:</p>
+          <textarea class="textarea  is-primary" name="corriculo" id="corriculo" required></textarea>
+      </label>
+    </div>
+    
+    
+
+    LABEL CARGO
+    <div class="field">
+      <div class="content">
+        <label class="label" for="cargo">Cargo:
+          <input class="input  is-primary" type="text" nome="cargo" id="cargo" placeholder="Empresario" maxlength="40" required>
+        </label>
+      </div>
+    </div>
+    
+
+    LABEL DATA DE INICIO
+    <div class="field">
+      <label class="label" for="data">Data de início: 
+        <input class="input  is-primary" type="date" name="data" id="data" required></label>
+    </div>
+
+
+    <!-- BOTÃO ENVIAR -->
+    <div class="field">
+      <div class="control">
+        <button class="button is-success"   type="submit">Enviar</button><button class="button is-danger" >Limpar</button>
+      </div>
+    
+
+      <div class="control">
+        
+      </div>
+    </div>
+  </form>
+    
+  </body>
+    <script src="script.js"></script>
+  </html>

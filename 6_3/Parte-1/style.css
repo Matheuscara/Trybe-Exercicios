@@ -1,0 +1,18 @@
+.flex-content {
+  background-color: rgb(31,87,104);
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.png {
+  width: 100px;
+}
+.content {
+  display: flex;
+  justify-content:space-around
+}
+.asuka{
+  width: 100px;
+  display: flex;
+}

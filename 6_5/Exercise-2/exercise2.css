@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+
+*:before, 
+
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+
+header {
+}
+
+header img {  
+  width: 100%;
+}
+
+.aside-one  {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.aside-one h2 {
+  padding: 2% 0px;
+  height: 50%;
+}
+
+.aside-one ul li {
+  list-style: none;
+  padding: 1%;
+  margin: 5px 15px;
+}
+
+/* Parte 2 */
+
+.main-content {
+  margin: 30px;
+}
+
+.main-content p {
+  padding: 5px;
+  text-align: justify;
+}
+
+/* parte 3 */
+
+footer {
+  text-align: center; 
+  font-size: 10px; 
+  padding: 20px;
+}

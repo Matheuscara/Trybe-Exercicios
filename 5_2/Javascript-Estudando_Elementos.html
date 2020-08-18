@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<body>
+
+    <div id="paiDoPai">
+        <div id="pai">
+          <div id="primeiroFilho"></div>
+          <div id="elementoOndeVoceEsta">
+            <div id="primeiroFilhoDoFilho"></div>
+            <div id="segundoEUltimoFilhoDoFilho"></div>
+          </div>
+          Atenção!
+          <div id="terceiroFilho"></div>
+          <div id="quartoEUltimoFilho"></div>
+        </div>
+      </div>
+      <script>
+          var OndeVoceEsta = document.querySelector('#elementoOndeVoceEsta')
+          var primeiroFilhoDoFilho=document.querySelector('#primeiroFilhoDoFilho')
+          var pai=document.querySelector('#pai')
+        console.log(
+            OndeVoceEsta.parentNode
+        )
+        console.log(
+            OndeVoceEsta.style.color="blue"
+        )
+        console.log(
+            primeiroFilhoDoFilho.innerHTML=("Adicionando Texto em PrimeiroFilhoDoFilho")
+        )
+        console.log(
+            pai.firstChild.innerHTML=("pipipipopopo")
+        )
+        console.log(
+            OndeVoceEsta.previousElementSibling
+        )
+        console.log(
+            OndeVoceEsta.nextSibling
+        )    
+        console.log(
+            OndeVoceEsta.nextElementSibling
+        )
+        console.log(
+            pai.lastChild.previousElementSibling.previousElementSibling
+        )
+
+        var irmaoElementoOndeVoceEsta = 
+        irmaoElementoOndeVoceEsta.innerHTML="Irmão"
+        var div = document.createElement("div")
+        document.getElementById("pai").appendChild(irmaoElementoOndeVoceEsta)
+    </script>
+</body>

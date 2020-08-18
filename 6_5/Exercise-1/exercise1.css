@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 25px;
+  margin: 25px;
+  background-color: grey;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  margin: 30px 0px;
+}
+h2 {
+
+}
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 10px;
+}
+
+
+@media only screen and ( min-width:400px ) and ( max-width:1200px ) {
+
+  p {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  body {
+    background-color: green;
+    /* font-size: 30px; */
+    /* margin: 30px; */
+  }
+  
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  figure {
+    width: 40%;
+    align-items: center;
+  }
+
+  figure figcaption {
+    text-align: center;
+  }
+}
+@media only screen and ( min-width:1200px ){
+
+  body {
+    background-color: cornflowerblue;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/878623010268618827/3687BB75101130333112FAAB99781E9B42F82BFA/);
+    font-size: 40px;
+    color: black;
+    margin: 35px;
+  }
+
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .textao-bunitao {
+    width: 50%;
+    padding: 40px 25px;
+    background-color: blanchedalmond;
+    border-radius: 20%;
+    border: 1px solid black;
+    transition: 1s;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+  .textao-bunitao:hover {
+    opacity: 1;
+  }
+ 
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    width: 80%;
+    border-radius: 25px;
+  }
+
+  figure {
+    width: 40%;
+    align-items: center;
+  }
+
+  figure figcaption {
+    text-align: center;
+  }
+  
+}
