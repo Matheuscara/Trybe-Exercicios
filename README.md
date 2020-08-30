@@ -7,20 +7,21 @@
 ### :book: Exercises:
 
   * __Module 4__
-    - [x] [4_1: JavaScript - First steps]( "Go to 4_1 folder")
-    - [x] [4_2: JavaScript - Array and Loop for]("Go to 4_2 folder")
-    - [x] [4_3: JavaScript - Logic programming and Algorithm]("Go to 4_3 folder")
-    - [x] [4_4: JavaScript - Objects and Functions]("Go to 4_4 folder")
+    - [x] [4_1: JavaScript - First steps](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/4_1 "Go to 4_1 folder")
+    - [x] [4_2: JavaScript - Array and Loop for](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/4_2 "Go to 4_2 folder")
+    - [x] [4_3: JavaScript - Logic programming and Algorithm](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/4_3 "Go to 4_3 folder")
+    - [x] [4_4: JavaScript - Objects and Functions](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/4_4 "Go to 4_4 folder")
 
 
  * __Module 5__
-      - [x] [5_1: JavaScript - DOM and Selectors]("Go to 5_1 folder")
-      - [x] [5_2: JavaScript - Working with elements]("Go to 5_2 folder")
-      - [x] [5_3: JavaScript - Events]("Go to 5_3 folder")
-      - [x] [5_4: JavaScript - Web Storage]( "Go to 5_4 folder")
+      - [x] [5_1: JavaScript - DOM and Selectors](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/5_1 "Go to 5_1 folder")
+      - [x] [5_2: JavaScript - Working with elements](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/5_2 "Go to 5_2 folder")
+      - [x] [5_3: JavaScript - Events](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/5_3 "Go to 5_3 folder")
+      - [] [5_4: JavaScript - Web Storage]( "Go to 5_4 folder")
     
 * __Module 6__
-    - [x] [6_2: JavaScript libraries and CSS Frameworks]("Go to 6_2 folder")
+    - [x] [6_1: Introdução - Front-end](https://github.com/Matheuscara/Trybe-Exercicios/tree/master/6_1 "Go to 6_1 folder")
+    - [] [6_2: JavaScript libraries and CSS Frameworks]("Go to 6_2 folder")
     - [x] [6_3: CSS Flexbox]( "Go to 6_3 folder")
     - [x] [6_5: CSS Responsive - Mobile first]("Go to 6_5 folder")
  
