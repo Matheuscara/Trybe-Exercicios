@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+.formularios {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  width: 250px;
+}
+
+textarea{
+  display: flex;
+  width: 250px;
+}

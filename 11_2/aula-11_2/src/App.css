@@ -1,0 +1,17 @@
+body {
+  background:black;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 20px;
+  background: rgb(75, 84, 0);
+}
