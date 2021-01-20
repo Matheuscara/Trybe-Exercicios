@@ -1,0 +1,58 @@
+{
+  "_id" : ObjectId("6008ac6bd746f69b992c5626"),
+  "title" : "Batman",
+  "category" : [
+          "superhero",
+          "villain",
+          "comic-based",
+          "villain",
+          "action"
+  ],
+  "imdbRating" : 7.7,
+  "budget" : 35
+}
+{
+  "_id" : ObjectId("6008ac6bd746f69b992c5627"),
+  "title" : "Godzilla",
+  "category" : [
+          "action",
+          "adventure",
+          "sci-fi"
+  ],
+  "imdbRating" : 6.6,
+  "budget" : 1
+}
+{
+  "_id" : ObjectId("6008ac6bd746f69b992c5628"),
+  "title" : "Home Alone",
+  "category" : [
+          "family",
+          "comedy"
+  ],
+  "imdbRating" : 7.4,
+  "cast" : [
+          {
+                  "actor" : "Macaulay Culkin",
+                  "character" : "Kevin"
+          },
+          {
+                  "actor" : "Joe Pesci",
+                  "character" : "Harry"
+          },
+          {
+                  "actor" : "Daniel Stern",
+                  "character" : "Marv"
+          },
+          {
+                  "actor" : "Macaulay Colkin",
+                  "character" : "Kevin"
+          },
+          {
+                  "actor" : "Joe Pesci",
+                  "character" : "Harry"
+          },
+          {
+                  "actor" : "Daniel Stern"
+          }
+  ]
+}
